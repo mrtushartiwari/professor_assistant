@@ -78,6 +78,27 @@ Once the database is set up and populated, you can run your application. For exa
 `uvicorn app:app`
 
 
+## How to Run the Query:
+To execute a query, run the following command:
+
+`python query_runner.py`
+
+To change the query update the line 
+`run_query(query= "Average marks in Maths")`
+
+
+## Drawbacks
+1. Spelling Mistakes or Variations in Subject Names
+
+    The assistant may fail to recognize or map subject names if there are typos or inconsistencies (e.g., "Mathematics" vs. "Maths").
+
+2. Handling of Summary Queries and API Exceptions from the Database
+
+    Some complex summary queries or database API errors may not be handled gracefully, requiring better exception management.
+
+3. Limited Tool Use by LLM (Not Explored)
+
+    The current implementation may not fully leverage the tool-use functionality of LLMs, which could enhance its ability to interact with APIs dynamically.
 
 
 

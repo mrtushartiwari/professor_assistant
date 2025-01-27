@@ -1,4 +1,11 @@
+# Professor Assistant
 
+This project demonstrates an AI-powered assistant built using LangChain (or Llama) and a FastAPI backend to interact with a PostgreSQL database. The assistant processes natural language instructions from a professor, extracts intent, and performs database operations such as adding students, recording scores, retrieving data, and summarizing information.
+
+#### Key Features:
+
+- Natural language understanding to execute professor instructions.
+- Seamless API integration with PostgreSQL for CRUD operations.
 
 ## Prerequisites
 Before you begin, ensure you have the following installed:
